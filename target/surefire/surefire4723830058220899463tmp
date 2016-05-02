@@ -1,0 +1,6 @@
+#surefire
+#Sun May 01 23:34:24 CEST 2016
+user.dir=/home/mstefank/GIT/activemq-performance-test
+idea.version=2016.1.1
+localRepository=/home/mstefank/.m2/repository
+basedir=/home/mstefank/GIT/activemq-performance-test

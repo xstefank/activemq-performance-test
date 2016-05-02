@@ -1,0 +1,3 @@
+io/silverware/performance/microservice/ActiveMQMicroservice.class
+io/silverware/performance/microservice/rest/RestfulMicroservice.class
+io/silverware/performance/jms/JMSStandard.class

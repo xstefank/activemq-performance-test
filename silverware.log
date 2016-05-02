@@ -1,0 +1,107 @@
+2016-05-02 00:27:32,426 INFO  [Thread-2] {io.silverware.microservices.Executor$ShutdownHook} Terminating SilverWare...
+2016-05-02 00:27:32,597 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider} Execution interrupted, exiting.
+2016-05-02 00:27:32,597 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider} Closing messaging platform...
+2016-05-02 00:27:32,597 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.internal.ConnectionProvider} Closing JMS connection provider: default JNDI connection...
+2016-05-02 00:27:32,641 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider} Bye from ActiveMQ Microservice Provider!
+2016-05-02 00:27:32,660 INFO  [SilverWare-boot] {io.silverware.microservices.Executor} All work is done. Graceful termination.
+2016-05-02 00:27:32,663 INFO  [SilverWare-main] {io.silverware.microservices.Boot} Goodbye.
+2016-05-02 00:27:32,692 INFO  [Thread-4] {org.jboss.weld.Bootstrap} WELD-ENV-002001: Weld SE container STATIC_INSTANCE shut down
+2016-05-02 09:17:42,507 INFO  [SilverWare-main] {io.silverware.microservices.Boot} === Welcome to SilverWare ===
+2016-05-02 09:17:42,585 INFO  [SilverWare-main] {io.silverware.microservices.Boot} No configuration property file available. Using default values.
+2016-05-02 09:17:42,588 INFO  [SilverWare-boot] {io.silverware.microservices.Executor} Looking up microservice providers...
+2016-05-02 09:17:45,019 INFO  [SilverWare-boot] {org.reflections.Reflections} Reflections took 2367 ms to scan 52 urls, producing 22635 keys and 39143 values 
+2016-05-02 09:17:45,027 INFO  [SilverWare-boot] {io.silverware.microservices.Executor} Found 3 microservice providers. Starting...
+2016-05-02 09:17:45,028 INFO  [SilverWare-boot] {io.silverware.microservices.Executor} Running microservice providers...
+2016-05-02 09:17:45,030 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider} Hello from CDI microservice provider!
+2016-05-02 09:17:45,033 INFO  [SilverWare-boot] {io.silverware.microservices.Executor} Total microservice providers found 3, deployed 2, skipped deployment 1.
+2016-05-02 09:17:45,033 INFO  [SilverWare-boot] {io.silverware.microservices.Executor} Microservice providers alive: 2
+2016-05-02 09:17:45,034 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider} Hello from ActiveMQ Microservice Provider!
+2016-05-02 09:17:45,066 INFO  [SilverWare-1-microservice-provider-1] {org.jboss.weld.Version} WELD-000900: 2.3.2 (Final)
+2016-05-02 09:17:45,266 INFO  [SilverWare-1-microservice-provider-1] {org.jboss.weld.Bootstrap} WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2016-05-02 09:17:45,775 INFO  [SilverWare-1-microservice-provider-1] {org.jboss.weld.Bootstrap} WELD-ENV-002003: Weld SE container STATIC_INSTANCE initialized
+2016-05-02 09:17:45,777 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider} Discovered the following microservice implementations:
+2016-05-02 09:17:45,777 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider}  - microservice ActiveMQMicroservice of type io.silverware.performance.microservice.ActiveMQMicroservice with qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] and with annotations [] (version: spec. 1.0-SNAPSHOT, impl. 1.0-SNAPSHOT)
+2016-05-02 09:17:45,778 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider}  - microservice SilverWareConfiguration of type io.silverware.microservices.providers.cdi.CdiMicroserviceProvider.SilverWareConfiguration with qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] and with annotations [] (version: spec. 1.0-SNAPSHOT, impl. 1.0-SNAPSHOT)
+2016-05-02 09:17:45,778 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider}  - microservice SilverWareCurrentContext of type io.silverware.microservices.providers.cdi.CdiMicroserviceProvider.SilverWareCurrentContext with qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] and with annotations [] (version: spec. 1.0-SNAPSHOT, impl. 1.0-SNAPSHOT)
+2016-05-02 09:17:45,778 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider}  - microservice SilverWareStorage of type io.silverware.microservices.providers.cdi.CdiMicroserviceProvider.SilverWareStorage with qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] and with annotations [] (version: spec. 1.0-SNAPSHOT, impl. 1.0-SNAPSHOT)
+2016-05-02 09:17:45,778 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider}  - microservice RestfulMicroservice of type io.silverware.performance.microservice.rest.RestfulMicroservice with qualifiers [@javax.enterprise.inject.Any(), @javax.enterprise.inject.Default()] and with annotations [] (version: spec. 1.0-SNAPSHOT, impl. 1.0-SNAPSHOT)
+2016-05-02 09:17:45,778 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider} Total count of discovered microservice injection points: 3
+2016-05-02 09:17:45,778 INFO  [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider} Deploying REST gateway services.
+2016-05-02 09:17:45,996 ERROR [SilverWare-1-microservice-provider-1] {io.silverware.microservices.internal.ConnectionProvider} Cannot create or start the connection: 
+javax.jms.JMSException: Failed to create session factory
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnectionInternal(ActiveMQConnectionFactory.java:735) ~[artemis-jms-client-1.2.0.jar:1.2.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:238) ~[artemis-jms-client-1.2.0.jar:1.2.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:233) ~[artemis-jms-client-1.2.0.jar:1.2.0]
+	at io.silverware.microservices.internal.ConnectionProvider.createConnection(ConnectionProvider.java:306) ~[activemq-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.internal.ConnectionProvider.getSharedConnection(ConnectionProvider.java:116) ~[activemq-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider.getConnectionForConnectionType(ActiveMQMicroserviceProvider.java:241) ~[activemq-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider.getConnection(ActiveMQMicroserviceProvider.java:265) ~[activemq-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider.lookupMicroservice(ActiveMQMicroserviceProvider.java:167) ~[activemq-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.silver.ProvidingSilverService.lookupLocalMicroservice(ProvidingSilverService.java:49) ~[microservices-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.Context.lambda$lookupLocalMicroservice$1(Context.java:157) ~[microservices-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_74]
+	at io.silverware.microservices.Context.lookupLocalMicroservice(Context.java:157) [microservices-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.silver.services.lookup.LocalLookupStrategy.getService(LocalLookupStrategy.java:35) [microservices-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.providers.cdi.internal.MicroserviceProxy.getService(MicroserviceProxy.java:59) [cdi-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at io.silverware.microservices.providers.cdi.internal.MicroserviceProxy.invoke(MicroserviceProxy.java:103) [cdi-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at javax.jms.Connection_$$_jvst1e2_0.createSession(Connection_$$_jvst1e2_0.java) [geronimo-jms_2.0_spec-1.0-alpha-2.jar:1.0-alpha-2]
+	at io.silverware.performance.microservice.rest.RestfulMicroservice.observer(RestfulMicroservice.java:44) [activemq-performance-test-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:88) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:78) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.injection.MethodInvocationStrategy$SimpleMethodInvocationStrategy.invoke(MethodInvocationStrategy.java:129) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:309) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:287) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:265) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:271) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:260) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.EventImpl.fire(EventImpl.java:89) [weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at io.silverware.microservices.providers.cdi.CdiMicroserviceProvider.run(CdiMicroserviceProvider.java:119) [cdi-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_74]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_74]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_74]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_74]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_74]
+Caused by: org.apache.activemq.artemis.api.core.ActiveMQNotConnectedException: AMQ119007: Cannot connect to server(s). Tried with all available servers.
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:792) ~[artemis-core-client-1.2.0.jar:1.2.0]
+	at org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory.createConnectionInternal(ActiveMQConnectionFactory.java:732) ~[artemis-jms-client-1.2.0.jar:1.2.0]
+	... 35 more
+2016-05-02 09:17:46,000 ERROR [SilverWare-1-microservice-provider-1] {io.silverware.microservices.providers.cdi.CdiMicroserviceProvider} CDI microservice provider failed: 
+java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at io.silverware.microservices.providers.cdi.internal.MicroserviceProxy.invoke(MicroserviceProxy.java:103) ~[cdi-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at javax.jms.Connection_$$_jvst1e2_0.createSession(Connection_$$_jvst1e2_0.java) ~[geronimo-jms_2.0_spec-1.0-alpha-2.jar:1.0-alpha-2]
+	at io.silverware.performance.microservice.rest.RestfulMicroservice.observer(RestfulMicroservice.java:44) ~[activemq-performance-test-1.0-SNAPSHOT.jar:1.0-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:88) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.injection.StaticMethodInjectionPoint.invoke(StaticMethodInjectionPoint.java:78) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.injection.MethodInvocationStrategy$SimpleMethodInvocationStrategy.invoke(MethodInvocationStrategy.java:129) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:309) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:287) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:265) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverNotifier.notifySyncObservers(ObserverNotifier.java:271) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.ObserverNotifier.notify(ObserverNotifier.java:260) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at org.jboss.weld.event.EventImpl.fire(EventImpl.java:89) ~[weld-se-2.3.2.Final.jar:2.3.2.Final]
+	at io.silverware.microservices.providers.cdi.CdiMicroserviceProvider.run(CdiMicroserviceProvider.java:119) [cdi-microservice-provider-2.1-SNAPSHOT.jar:2.1-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_74]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_74]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_74]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_74]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_74]
+2016-05-02 09:17:54,167 INFO  [Thread-2] {io.silverware.microservices.Executor$ShutdownHook} Terminating SilverWare...
+2016-05-02 09:17:54,168 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider} Execution interrupted, exiting.
+2016-05-02 09:17:54,169 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider} Closing messaging platform...
+2016-05-02 09:17:54,169 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.internal.ConnectionProvider} Closing JMS connection provider: default JNDI connection...
+2016-05-02 09:17:54,169 INFO  [SilverWare-1-microservice-provider-2] {io.silverware.microservices.providers.activemq.ActiveMQMicroserviceProvider} Bye from ActiveMQ Microservice Provider!
+2016-05-02 09:17:54,170 INFO  [SilverWare-boot] {io.silverware.microservices.Executor} All work is done. Graceful termination.
+2016-05-02 09:17:54,170 INFO  [SilverWare-main] {io.silverware.microservices.Boot} Goodbye.
+2016-05-02 09:17:54,179 INFO  [Thread-4] {org.jboss.weld.Bootstrap} WELD-ENV-002001: Weld SE container STATIC_INSTANCE shut down
