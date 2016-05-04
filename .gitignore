@@ -1,12 +1,42 @@
+# Generated files
 *.class
+target
+target_release
+logs
+*.log
+*.log.*
+test-output
+*.csv
+dependency-reduced-pom.xml
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Eclipse stuff
+bin
+.metadata
+.settings
+.project
+.classpath
+
+# Lib
+lib/ext/*.jar
+lib/plugins/*.jar
+
+# IntelliJ Idea
+.idea
+*.iml
 
 # Package Files #
 *.jar
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+src/main/native/*.so
+
+#Build log
+/build.out
+
+#Vertx
+.vertx
+
+#ActiveMQ
+activemq-data
+

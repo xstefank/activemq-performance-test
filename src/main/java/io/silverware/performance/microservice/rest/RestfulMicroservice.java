@@ -27,7 +27,7 @@ import javax.naming.NamingException;
 @Microservice
 public class RestfulMicroservice {
 
-   public static final int MESSAGE_COUNT = 200;
+   public static final int MESSAGE_COUNT = 60000;
 
    @Inject
    @MicroserviceReference("producerConncetion")
