@@ -1,0 +1,1 @@
+drawChart(http_throughput20160504165920, 'chart_http_throughput20160504165920_div', [0, 1, 2, 3, 4], 1, 'Time', 'Throughput [iteration/s]', 'ActiveMQ microservice');
